@@ -11,7 +11,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Table(name = "event")
+@Table(name = "events")
 @Entity
 @Setter
 @Getter
@@ -27,6 +27,6 @@ public class Event {
     private String description;
     private String imgUrl;
     private Boolean remote;
-    private Date date;
+    private Date eventDate;
 
 }
