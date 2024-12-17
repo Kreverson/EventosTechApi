@@ -12,8 +12,8 @@ import java.util.UUID;
 
 @Table(name = "coupons")
 @Entity
-@Getter
 @Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Coupon {
@@ -21,7 +21,6 @@ public class Coupon {
     @Id
     @GeneratedValue
     private UUID id;
-
     private String code;
     private Integer discount;
     private Date valid;
